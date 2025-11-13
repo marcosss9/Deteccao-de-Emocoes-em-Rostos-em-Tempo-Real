@@ -22,4 +22,4 @@ Este projeto é um aplicativo web simples construído com **Streamlit** que util
 Instale as bibliotecas necessárias usando `pip`:
 
 ```bash
-pip install streamlit opencv-python numpy Pillow deepface
+pip install streamlit opencv-python numpy Pillow deepface tf-keras
