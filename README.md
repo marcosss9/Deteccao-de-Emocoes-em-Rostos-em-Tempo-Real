@@ -23,3 +23,11 @@ Instale as bibliotecas necessárias usando `pip`:
 
 ```bash
 pip install streamlit opencv-python numpy Pillow deepface tf-keras
+```
+
+### Execução
+
+Execute no terminal o comando:
+
+```bash
+streamlit run emotion_detection.py
