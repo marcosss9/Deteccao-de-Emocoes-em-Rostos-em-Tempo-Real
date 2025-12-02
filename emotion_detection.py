@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from deepface import DeepFace
 import time
-
+# Módulo principal para interface Streamlit e lógica de detecção de emoção.
 if 'webcam_active' not in st.session_state:
     st.session_state.webcam_active = False
 
@@ -121,3 +121,4 @@ elif option == "Webcam":
         webcam_stream()
     else:
         st.info("Clique em 'Iniciar Captura' para começar.")
+
