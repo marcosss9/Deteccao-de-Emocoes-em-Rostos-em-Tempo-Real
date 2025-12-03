@@ -10,6 +10,7 @@ if 'webcam_active' not in st.session_state:
 
 st.set_page_config(layout="wide", page_title="Detecção de Emoções")
 st.title("Detecção de Emoções em Rostos")
+st.caption("🎭 Sistema de análise de emoções faciais em tempo real usando DeepFace e OpenCV")
 st.markdown("---")
 
 def detect_emotion(image):
